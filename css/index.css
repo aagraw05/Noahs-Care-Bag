@@ -1,7 +1,51 @@
-.navbar-brand img {
-  height: 12%;
-  width: 15%;
+/*
+Color palette 
+#ef5a28 orange
+#377fd4
+#65c1e3
+
+*/
+body {
+  font-family: "Patrick Hand", cursive;
 }
+.navbar {
+  background-color: #142f4e;
+  font-family: "Indie Flower", sans-serif;
+}
+#emphasized {
+  color: #e4e7f7;
+}
+.text-color {
+  color: #fff;
+}
+.main {
+  background-color: #ef5a28;
+}
+h6 {
+  color: rgba(255, 255, 255, 0.797);
+  padding-right: 25%;
+}
+#main-text {
+  width: 50%;
+  color: rgba(255, 255, 255, 0.797);
+  font-size: 20px;
+  line-height: 1.6;
+}
+.learn-more {
+  width: 20%;
+  margin: auto;
+  color: #65c1e3;
+  border-color: #65c1e3;
+}
+#learn-more:hover {
+  background-color: #65c1e3;
+  color: rgba(255, 255, 255, 0.797);
+}
+#picture-partition {
+  display: block;
+  width: auto;
+}
+
 .carousel-item {
   width: 600px;
   height: 400px;
