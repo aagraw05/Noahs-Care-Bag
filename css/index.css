@@ -9,8 +9,8 @@ body {
   font-family: "Patrick Hand", cursive;
 }
 .navbar {
-  background-color: #142f4e;
-  font-family: "Indie Flower", sans-serif;
+  background-color: #2d3c46;
+  font-size: 18px;
 }
 #emphasized {
   color: #e4e7f7;
@@ -67,6 +67,10 @@ h6 {
   margin: auto -100px;
   float: right;
   width: 80%;
+}
+#facebook {
+  background-color: #65c1e3;
+  border-color: #65c1e3;
 }
 .card {
   margin-top: 30px;

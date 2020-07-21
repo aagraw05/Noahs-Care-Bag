@@ -1,12 +1,40 @@
-.navbar-brand img {
-  height: 12%;
-  width: 15%;
+/*
+Color palette 
+#ef5a28 orange
+#377fd4
+#65c1e3*/
+body {
+  font-family: "Patrick Hand", cursive;
 }
-.carousel-item {
-  width: 600px;
-  height: 400px;
-  vertical-align: middle;
-  align-items: center;
+.navbar {
+  background-color: #2d3c46;
+  font-size: 18px;
+}
+#emphasized {
+  color: #e4e7f7;
+}
+.text-color {
+  color: #fff;
+}
+.card {
+  background-color: #ef5a28;
+  color: #fff;
+}
+.special-card {
+  background-color: #fff;
+}
+.card-header {
+  background-color: #ef5a28;
+}
+.card-body {
+  color: #fff;
+}
+.card .btn {
+  background-color: #65c1e3;
+  border-color: #65c1e3;
+}
+.card-title {
+  text-decoration: underline;
 }
 
 #map {
