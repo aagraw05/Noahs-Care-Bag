@@ -72,7 +72,10 @@ h6 {
   margin-top: 30px;
 }
 #titletwo {
-  margin-top: 150px;
+  margin-top: 50px;
+}
+#thanknote-bg {
+  background-color: #ef5a28;
 }
 .highlights {
   color: #fff;
