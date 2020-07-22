@@ -5,6 +5,12 @@ body {
   background-color: #2d3c46;
   font-size: 18px;
 }
+.navbar-toggler {
+  border-color: #ef5a28;
+}
+.navbar-toggler-icon {
+  border-color: #ef5a28;
+}
 #emphasized {
   color: #e4e7f7;
 }
