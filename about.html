@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/about.css">
@@ -16,9 +17,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light py-3 px-10">
-
-
+    <nav class="navbar navbar-expand-lg px-10">
         <!--toggler-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +27,19 @@
         <!--navs-->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <!--Brand-->
-            <a class="navbar-brand ml-5" href="index.html"><img src="imgs/logo.png"></a>
             <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item  px-2">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="cooperates.html">Donate</a>
+                    <a class="nav-link" href="index.html" style="color: white;">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active px-2">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-color" class="emphasized" href="#">Donate</a>
+                </li>
+                <li class="nav-item px-2 ">
+                    <a class="nav-link text-color" href="about.html">About</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link text-color" href="contact.html">Contact Us</a>
                 </li>
 
             </ul>
@@ -49,7 +48,7 @@
 
     <!-- +++++ Posts Lists +++++ -->
     <!-- +++++ First Post +++++ -->
-    <div id="grey">
+    <div id="orange">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -91,11 +90,16 @@
                     <p>
                         <bd>January 3, 2014</bd>
                     </p>
-                    <h4>An Image Post</h4>
-                    <p><img class="imgs-responsive" src="img/blog01.jpg" alt=""></p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    <h4>A Video Post</h4>
+                    <video height="400" controls>
+                        <source src="imgs/video1.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
                         the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of
                         type and
                         scrambled it to make a type specimen book.</p>
                     <p><a href="blog01.html">Continue Reading...</a></p>
@@ -109,7 +113,7 @@
     <!-- /white -->
 
     <!-- +++++ Third Post +++++ -->
-    <div id="grey">
+    <div id="orange">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -120,9 +124,8 @@
                         <bd>January 01, 2014</bd>
                     </p>
                     <h4>Believe In Yourself</h4>
-                    <p class="bq">"A bird sitting on a tree is never afraid of the branch breaking, because her trust is
-                        not in
-                        the branch, but in her own wings."</p>
+                    <p class="bq">"Don't stop trying because you hit a wall. Progress is progress no matter how small!."
+                    </p>
                 </div>
 
             </div>

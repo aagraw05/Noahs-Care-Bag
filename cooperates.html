@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cooperates.css">
@@ -16,9 +18,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light py-3 px-10">
-
-
+    <nav class="navbar navbar-expand-lg px-10">
         <!--toggler-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,24 +28,83 @@
         <!--navs-->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <!--Brand-->
-            <a class="navbar-brand ml-5" href="index.html"><img src="imgs/logo.png"></a>
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" style="color: white;">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active px-2">
-                    <a class="nav-link" href="#">Donate</a>
+                    <a class="nav-link text-color" class="emphasized" href="#">Donate</a>
+                </li>
+                <li class="nav-item px-2 ">
+                    <a class="nav-link text-color" href="about.html">About</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link text-color" href="contact.html">Contact Us</a>
                 </li>
 
             </ul>
         </div>
     </nav>
+    <!--donate ways-->
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="imgs/donatepic1.JPG" class="card-img-top" alt="...">
+                    <div class="container d-flex justify-content-end" style="margin-top: -15px;">
+                        <a class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer"
+                            href="http://jewishfoundationcny.org/giving/">DONATE</a>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Giving Cash</h5>
+                        <p class="card-text">We're accepting the donations via the Jewish Community Foundation of
+                            Central New York</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="imgs/donatepic2.JPG" class="card-img-top" alt="...">
+                    <div class="container d-flex justify-content-end" style="margin-top: -15px;">
+                        <a class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer"
+                            href="http://bit.ly/NCBWishList">DONATE</a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Providing care bags</h5>
+                        <p class="card-text">We would love to receive any necessary items like shampoo, condition, soap,
+                            lotion, toothbrush, toothpaste...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card special-card">
+                    <div class="card-header">
+                        OUR WISHLIST
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="imgs/ama2.png" class="w-100">
+                                    </div>
+                                    <div class="col">
+                                        <img src="imgs/logo.png" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="http://bit.ly/NCBWishList" class="card-link">See More on Our Amazon Wishlist!</a>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
     <!--maps for hospitals-->
     <div class="jumbotron bg-light py-0 container-fluid">
         <div class="container">
@@ -78,13 +137,7 @@
         </div>
 
     </div>
-    <div class="container">
-        <div class="alert alert-primary" role="alert">
-            <div class="container m-3">
-                <a href="http://jewishfoundationcny.org/giving/">Donate more</a>
-            </div>
-        </div>
-    </div>
+
 
     <!--footer-->
     <div id="footer" class="container-fluid">
