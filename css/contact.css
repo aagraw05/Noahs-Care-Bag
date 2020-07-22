@@ -1,12 +1,15 @@
-.navbar-brand img {
-  height: 12%;
-  width: 15%;
+body {
+  font-family: "Patrick Hand", cursive;
 }
-.carousel-item {
-  width: 600px;
-  height: 400px;
-  vertical-align: middle;
-  align-items: center;
+.navbar {
+  background-color: #2d3c46;
+  font-size: 18px;
+}
+#emphasized {
+  color: #e4e7f7;
+}
+.text-color {
+  color: #fff;
 }
 
 #map {
