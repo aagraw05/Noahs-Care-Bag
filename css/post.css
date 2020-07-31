@@ -1,0 +1,101 @@
+/*
+Color palette 
+#ef5a28 orange
+#377fd4
+#65c1e3*/
+
+/* Blog Date*/
+/* df*/
+/* +++++ Color Wraps / Blog Page +++++ */
+
+body {
+  font-family: "Patrick Hand", cursive;
+}
+.navbar {
+  background-color: #2d3c46;
+  font-size: 18px;
+}
+#emphasized {
+  color: #e4e7f7;
+}
+.text-color {
+  color: #fff;
+}
+#orange {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ef5a28;
+  color: #e4e7f7;
+}
+
+#white {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+
+bd {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  font-weight: 700;
+}
+
+/* Blog Author*/
+
+ba {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Blog Quote */
+
+.bq {
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+/* Blog Tags */
+
+bt {
+  font-size: 12px;
+}
+#footer {
+  background-color: #2f2f2f;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 0px;
+}
+
+#footer p {
+  color: white;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+#copyrights {
+  position: relative;
+  bottom: 0px;
+}
+#copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#copyrights a {
+  color: #1abc9c;
+}
+
+.credits {
+  color: #999;
+}

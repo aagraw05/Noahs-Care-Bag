@@ -5,12 +5,23 @@ Color palette
 #65c1e3
 
 */
+
+.item {
+  background-color: #ef5a28;
+  color: #fff;
+  height: 300px;
+  border-radius: 5px;
+  font-size: 18px;
+}
 body {
   font-family: "Patrick Hand", cursive;
 }
+.navbar-brand {
+  color: #65c1e3;
+}
 .navbar {
   background-color: #2d3c46;
-  font-size: 18px;
+  font-size: 20px;
 }
 #emphasized {
   color: #e4e7f7;
@@ -26,7 +37,7 @@ h6 {
   padding-right: 25%;
 }
 #main-text {
-  width: 50%;
+  width: 80%;
   color: rgba(255, 255, 255, 0.797);
   font-size: 20px;
   line-height: 1.6;
