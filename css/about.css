@@ -9,11 +9,14 @@ Color palette
 /* +++++ Color Wraps / Blog Page +++++ */
 
 body {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Nunito", sans-serif;
+}
+.navbar-brand {
+  color: #65c1e3;
 }
 .navbar {
   background-color: #2d3c46;
-  font-size: 18px;
+  font-size: 20px;
 }
 #emphasized {
   color: #e4e7f7;
@@ -21,17 +24,14 @@ body {
 .text-color {
   color: #fff;
 }
-#orange {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ef5a28;
-  color: #e4e7f7;
+#ww {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f2f2f2;
 }
-
-#white {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+.story {
+  height: 200px;
+  overflow-y: scroll;
 }
 
 bd {

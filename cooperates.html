@@ -9,18 +9,36 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cooperates.css">
     <script type="text/javascript" src="script.js"></script>
-    <title>Hello, world!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Noah's Care Bags</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg px-10">
+        <nav class="navbar px-10">
+            <a target="_blank" rel="noopener noreferrer" class="navbar-brand" href="https://twitter.com/bagsnoah"><i
+                    class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+
+
+            <a target="_blank" rel="noopener noreferrer" class="navbar-brand"
+                href="https://www.instagram.com/noahs_care_bags/"><i class="fa fa-instagram" aria-hidden="true"></i>
+                </i>
+            </a>
+
+
+            <a target="_blank" rel="noopener noreferrer" class="navbar-brand"
+                href="https://www.facebook.com/noahscarebags"><i class="fa fa-facebook" aria-hidden="true"></i>
+                </i>
+            </a>
+        </nav>
         <!--toggler-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,17 +47,19 @@
 
         <!--navs-->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <!--Brand-->
+            <!--nav tabs-->
             <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="index.html" style="color: white;">Home <span
-                            class="sr-only">(current)</span></a>
+                <li class="nav-item  px-2">
+                    <a class="nav-link text-color" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active px-2">
-                    <a class="nav-link text-color" class="emphasized" href="#">Donate</a>
+                    <a class="nav-link " id="emphasized" href="#">Donate</a>
                 </li>
                 <li class="nav-item px-2 ">
                     <a class="nav-link text-color" href="about.html">About</a>
+                </li>
+                <li class="nav-item px-2 ">
+                    <a class="nav-link text-color" href="post.html">Posts</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link text-color" href="contact.html">Contact Us</a>
@@ -55,8 +75,9 @@
                 <div class="card">
                     <img src="imgs/donatepic1.JPG" class="card-img-top" alt="...">
                     <div class="container d-flex justify-content-end" style="margin-top: -15px;">
-                        <a class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer"
-                            href="http://jewishfoundationcny.org/giving/">DONATE</a>
+                        <a class="btn btn-primary" data-toggle="tooltip" data-placement="top"
+                            title="This link will direct you to the Jewish Community for cash option" target="_blank"
+                            rel="noopener noreferrer" href="http://jewishfoundationcny.org/giving/">DONATE</a>
                     </div>
 
                     <div class="card-body">
@@ -71,7 +92,7 @@
                     <img src="imgs/donatepic2.JPG" class="card-img-top" alt="...">
                     <div class="container d-flex justify-content-end" style="margin-top: -15px;">
                         <a class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer"
-                            href="http://bit.ly/NCBWishList">DONATE</a>
+                            href="http://bit.ly/NCBWishList">PROVIDE</a>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Providing care bags</h5>
@@ -80,6 +101,63 @@
                     </div>
                 </div>
             </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="imgs/donatepic3.JPG" class="card-img-top" alt="...">
+                    <div class="container d-flex justify-content-end" style="margin-top: -15px;">
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Buy Bags
+                        </button>
+
+
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Help 2 families with one bag!</h5>
+                        <p class="card-text">Help a family in need. By purchasing this bag, you will help both a child
+                            and their parent/guardian in a small but a big way</p>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Buy Bags Option</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <img src="imgs/5.jpeg" class="w-75 d-flex justify-content-center"
+                                        style="margin: auto;">
+                                </div>
+                                <div class="checkout">
+                                    <p class="price" data-price="15">$15 per Bag</p>
+                                    <p class="description">Quantity:</p>
+                                    <button type="button" class="decrease-btn">-</button>
+                                    <input type="text" class="quantity" value="1">
+                                    <button type="button" class="increase-btn">+</button>
+                                    <p class="total">Total: <span id="total">$15</span></p>
+                                    <p class="description">This donation is enough to help <span id="family"
+                                            style="font-size: 22px; color:#ef5a28;">2</span>
+                                        families!
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Confirm Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col mb-4">
                 <div class="card special-card">
                     <div class="card-header">
@@ -108,44 +186,28 @@
     </div>
 
     <!--maps for hospitals-->
-    <class class="container justify-content-center d-flex">
-        <iframe width="600" height="373.5"
-            src="https://app.powerbi.com/view?r=eyJrIjoiODI0ZDI2YzYtNjFmYS00ZjQwLTgwMjYtZTE0Mzc5ODhmZTYxIiwidCI6IjQyNzhhNDAyLTFhOWUtNGViOS04NDE0LWZmYjU1YTVmY2YxZSIsImMiOjN9"
-            frameborder="0" allowFullScreen="true"></iframe>
+    <class class="container-fluid justify-content-center d-flex">
+        <div class="row">
+            <div class="col-6">
+                <iframe width="1000" height="500"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiODI0ZDI2YzYtNjFmYS00ZjQwLTgwMjYtZTE0Mzc5ODhmZTYxIiwidCI6IjQyNzhhNDAyLTFhOWUtNGViOS04NDE0LWZmYjU1YTVmY2YxZSIsImMiOjN9"
+                    frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div class="col-3">
+                <ul class="list-group">
+                    <li class="list-group-item active">Golisano Children's Hospital</li>
+                    <li class="list-group-item">Golisano Children's Hospital</li>
+                    <li class="list-group-item">Golisano Children's Hospital</li>
+                    <li class="list-group-item">Golisano Children's Hospital</li>
+                    <li class="list-group-item">Golisano Children's Hospital</li>
+                </ul>
+            </div>
+        </div>
+
     </class>
 
 
-    <div class="jumbotron bg-light py-0 container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div id="map"></div>
-                    <div id="content">
-                        Hi,I'm Noah!
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <button type="button" class="btn btn-outline-warning">Upstate Golisano Children's Hospital</button>
-
-            </div>
-            <div class="col-md-3">
-                <button type="button" class="btn btn-outline-warning">Upstate Golisano Children's Hospital</button>
-
-            </div>
-            <div class="col-md-3">
-                <button type="button" class="btn btn-outline-warning">Upstate Golisano Children's Hospital</button>
-
-            </div>
-
-        </div>
-
-    </div>
 
 
     <!--footer-->
@@ -184,6 +246,34 @@
             &copy; Copyrights <strong>Noah's care bag</strong>. All Rights Reserved
         </p>
     </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        $(document).ready(function () {
+            $(".checkout").on("input", ".quantity", function () {
+                var price = +$(".price").data("price");
+                var quantity = +$(this).val();
+                $("#total").text("$" + price * quantity);
+                $("#family").text(2 * quantity);
+            });
+
+            var $buttonPlus = $(".increase-btn");
+            var $buttonMin = $(".decrease-btn");
+            var $quantity = $(".quantity");
+
+            /*For plus and minus buttons*/
+            $buttonPlus.click(function () {
+                $quantity.val(parseInt($quantity.val()) + 1).trigger("input");
+            });
+
+            $buttonMin.click(function () {
+                $quantity.val(Math.max(parseInt($quantity.val()) - 1, 0)).trigger("input");
+            });
+        });
+
+    </script>
 
 
     <!-- / copyrights -->

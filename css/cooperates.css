@@ -4,17 +4,27 @@ Color palette
 #377fd4
 #65c1e3*/
 body {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Nunito", sans-serif;
+}
+.navbar-brand {
+  color: #65c1e3;
 }
 .navbar {
   background-color: #2d3c46;
-  font-size: 18px;
+  font-size: 20px;
 }
 #emphasized {
   color: #e4e7f7;
 }
 .text-color {
   color: #fff;
+}
+.checkout {
+  height: 150px;
+  width: 400px;
+  margin: 20px auto;
+
+  text-align: center;
 }
 .card {
   background-color: #ef5a28;

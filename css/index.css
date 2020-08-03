@@ -3,9 +3,10 @@ Color palette
 #ef5a28 orange
 #377fd4
 #65c1e3
-
 */
-
+body {
+  font-family: "Nunito", sans-serif;
+}
 .item {
   background-color: #ef5a28;
   color: #fff;
@@ -13,9 +14,7 @@ Color palette
   border-radius: 5px;
   font-size: 18px;
 }
-body {
-  font-family: "Patrick Hand", cursive;
-}
+
 .navbar-brand {
   color: #65c1e3;
 }
