@@ -10,7 +10,6 @@ Color palette
 
 body {
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
 }
 .navbar-brand {
   color: #65c1e3;
@@ -31,10 +30,12 @@ body {
 div#toparent-container {
   background-color: #ef5a28;
   color: #fff;
+  font-size: 20px;
 }
 .story {
   height: 300px;
   overflow-y: scroll;
+  font-size: 20px;
 }
 
 bd {
