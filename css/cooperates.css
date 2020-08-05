@@ -46,6 +46,11 @@ body {
 .card-title {
   text-decoration: underline;
 }
+.splide .splide__slide {
+  background-color: #ef5a28;
+  border-radius: 20px;
+  color: white;
+}
 
 #map {
   width: auto;

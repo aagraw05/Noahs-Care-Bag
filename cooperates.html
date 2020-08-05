@@ -14,8 +14,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cooperates.css">
-    <script type="text/javascript" src="script.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--splide-->
+    <link rel="stylesheet" href="splide.min.css">
+    <script src="splide.min.js"></script>
     <title>Noah's Care Bags</title>
 </head>
 
@@ -206,7 +210,60 @@
 
     </class>
 
+    <!--splider-->
+    <div class="container">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide p-3 m-3">
+                        <p style="width: 200px;">Hi,<br>
+                            We have received one of your bags. I can’t tell you how
+                            much we appreciate
+                            it. You really are
+                            helping more than you
+                            know.
+                            <br>
 
+                            <span class="d-flex justify-content-end">-Jojo</span></p>
+                    </li>
+                    <li class="splide__slide p-3 m-3">
+                        <p style="width: 400px;">Hi Noah,<br>
+                            I just wanna say how amazing I think what you’re doing is. I am
+                            a mother of a Leukemia survivor so, I know how important
+                            these bags are and you are truly amazing</p>
+                        <br>
+
+                        <span class="d-flex justify-content-end">-Heather</span>
+                    </li>
+                    <li class="splide__slide p-3 m-3">
+                        <p style="width: 400px;">Thank you so much for what you do. We do not live too close to
+                            the hospital. This is amazing and you are such a great
+                            kid!! I hope you are well 💖. I needed this tonight and was happy it was there for me and
+                            gave me
+                            the time I needed to
+                            reboot and get cleaned up. The Hersey kisses a bonus!! You’re amazing!!!</p>
+                        <br>
+
+                        <span class="d-flex justify-content-end ">-Monica</span>
+
+                    </li>
+                    <li class="splide__slide p-3 m-3">
+                        <p style="width: 400px;">Thank you so much for your kind gesture, we are having a really
+                            hard time here in the PICU and we greatly appreciate
+                            this gift from you. 💖 Thank you for making a difference.</p>
+                        <br>
+
+                        <span class="d-flex justify-content-end ">-Chrissy</span>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="splide__progress">
+                <div class="splide__progress__bar">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -275,7 +332,16 @@
 
     </script>
 
-
+    <script>
+        new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            autoplay: true,
+            height: '9rem',
+            autoWidth: true,
+            autoHeight: true,
+        }).mount();
+    </script>
     <!-- / copyrights -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
