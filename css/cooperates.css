@@ -26,6 +26,11 @@ body {
 
   text-align: center;
 }
+.container h3 {
+  box-shadow: 20px 10px #2d3c46;
+  background-color: #65c1e3;
+}
+
 .card {
   background-color: #ef5a28;
   color: #fff;
@@ -47,9 +52,9 @@ body {
   text-decoration: underline;
 }
 .splide .splide__slide {
-  background-color: #ef5a28;
+  background-color: white;
   border-radius: 20px;
-  color: white;
+  color: #ef5a28;
 }
 
 #map {

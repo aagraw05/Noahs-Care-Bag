@@ -37,7 +37,16 @@ div#toparent-container {
   overflow-y: scroll;
   font-size: 20px;
 }
-
+.learn-more {
+  width: 40%;
+  margin: auto;
+  color: #ef5a28;
+  border-color: #ef5a28;
+}
+#learn-more:hover {
+  background-color: #ef5a28;
+  color: rgba(255, 255, 255, 0.797);
+}
 bd {
   font-size: 12px;
   text-transform: uppercase;
